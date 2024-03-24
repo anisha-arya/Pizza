@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pizza Party</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome!</h1>
+        </header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pizza/1">Pizza 1</a></li>
+            <li><a href="/pizza/2">Pizza 2</a></li>
+            <li><a href="/pizza/3">Pizza 3</a></li>
+          </ul>
+
+        <main>
+            <!--jinja-->
+            {%block content%}{%endblock%}
+        </main>
+
+        <footer>
+            <!--&copy; is interpreted as the copyright symbol-->
+            <p>*The footer &copy; 2024*</p>
+        </footer>
+    </body>
+</html>
